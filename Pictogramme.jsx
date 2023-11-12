@@ -14,6 +14,8 @@ export default function Pictogramme(props) {
       <Icone />
       <hr />
       <div>
+         <p>{message}</p>
+
         <button
           type="button"
           className="btn no-outline btn-secondary"
@@ -24,7 +26,6 @@ export default function Pictogramme(props) {
           <span className="align-middle">J'aime</span>
         </button>
       </div>
-      <p>{message}</p>
     </div>
   );
 }
